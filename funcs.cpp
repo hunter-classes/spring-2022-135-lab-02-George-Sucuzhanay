@@ -1,9 +1,10 @@
 #include "funcs.h"
+#include <iostream>
 
 void print_interval(int L, int U){
-    // int myArr[] = {}
-    for(int i = L; i < U; i++) {
-        // std::cout << i << "\n";
-
+    for (int i = L; i < U; i++)
+    // L <= i < U separated by spaces
+    {
+        std::cout << i << " ";
     }
 }
